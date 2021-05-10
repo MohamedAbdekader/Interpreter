@@ -1,5 +1,3 @@
-Author: Mohamed Abdelkader
-
 Files:
 Readme: documentation of the project
 Main.py: a file that contains code to run the program
@@ -28,16 +26,11 @@ program.py: Contains parse program, printing program and executing program metho
 stmtseq.py: Contains parse program, printing program and executing a list of statments 
 term.py: Contains parse program, printing program and executing single terms
 
-Special Features:
-None
-
 Description:
 I created three different data structures. One list for references, one list for garbage collection, and one map that maps references with their values. 
 When a new declaration is done, it adds it to the references list and maps a NULL value to it. When I assign a reference to a new value, I map the reference to the value and add the value to the garbage collector.
 The garbage collector removes values as scopes are removed and values are not affiliated to references.
 
-Test cases:
-I added some test cases that I created myself which has the same format as the test cases given to us. I also added some test cases that I found on Piazza. 
-
-Bugs:
-I believe I do not have any.
+To run the program: 
+python Main.py x.code x.data 
+where x is a number from the correct test cases file.
