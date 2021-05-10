@@ -9,5 +9,5 @@ Description of Parser:
 I created a class for each root node. The root node has a children nodes array. I have a parser for each root node that checks for the available children and does semantics checks. Then, for each class, I have a print method that prints each node and its children.
 
 To run the program: 
-python Main.py x.code x.data 
+python Main.py x.code
 where x is a number from the correct test cases file.
